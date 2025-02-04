@@ -7,8 +7,7 @@ const messageHistory: Array<{ role: string; content: string; name?: string }> =
   [
     {
       role: 'system',
-      content:
-        'You are a helpful assistant. You should answer with concise answers, and avoid using Markdown.',
+      content: 'You are a helpful assistant.',
     },
   ]
 
