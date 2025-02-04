@@ -37,7 +37,11 @@ const ChatHistory = ({ messages }: ChatHistoryProps) => {
                 key={i}
                 className={`flex flex-col ${!(i % 2) ? 'items-end' : ''}`}
               >
-                <ChatBubble message={message} isChat={i % 2} />
+                <ChatBubble
+                  message={message}
+                  isChat={i % 2}
+                  scrollToBottom={scrollToBottom}
+                />
               </div>
             ))}
           </div>
